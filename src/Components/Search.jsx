@@ -6,9 +6,11 @@ function Search() {
     const [query,setQuery]= useState('name');
     // SYNTAX FOR USEEFFECT
     useEffect(()=> {
-        function fetchBot(){
+       async function fetchBot(){
             console.log('here')
-          const res=  fetch(`${url} ? query=${query}`)
+          const res= await fetch(`${url} ? query=${query}`)
+          const data= await res.json ()
+          console.log(data.results)
         }
         fetchBot()
     },[query],)
