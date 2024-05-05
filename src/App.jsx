@@ -1,5 +1,6 @@
 import React from 'react'
 import Search from './Components/Search'
+import Bot from './Components/Bot'
 
 
 
@@ -10,6 +11,7 @@ function App() {
     
       <div className='App'>
         <Search />
+        <Bot />
         </div>
     
   )
