@@ -16,8 +16,8 @@ function Search({botData,setBotData}) {
          fetchBot()
     },[query],)
   return (
-    <div>
-        <input placeholder='Enter ...'onChange={(e) => setQuery(e.target.value)} value={query} type='text'/>
+    <div className='search-container'>
+        <input  className='input'placeholder='Enter ...'onChange={(e) => setQuery(e.target.value)} value={query} type='text'/>
     </div>
   )
 }
