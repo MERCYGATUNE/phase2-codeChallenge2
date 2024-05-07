@@ -1,10 +1,15 @@
-.nav{
+.nav { 
     background-color:yellow;
-    font-size: 3em;
+    font-size: 2em;
     font-family: sans-serif;
     font-weight: bold;
     color: black;
     padding: 30px;
-    text-align: center;
-    box-shadow: 0px 0px 10px rgba(0, 0,0, 0.5);
+    padding-left: 30px;
+    margin-left: 650px;
+    margin-right: 6;
+     
+     box-shadow: 0px 0px 10px rgba(0, 0,0, 0.5); 
 }
+
+    

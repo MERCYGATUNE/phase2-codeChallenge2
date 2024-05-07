@@ -1,16 +1,16 @@
 .search-container{
     margin: 20px auto;
     position: relative;
-    width: 300px;
+    width: 400px;
 }
 .input{
     border: none;
-    border-bottom: 1px solid white;
-    padding:10px 20px ;
+    border-bottom: 1px solid green;
+    padding:50px 250px ;
     width: 100%;
     outline: none;
     font-size: 20px;
     color:black;
-    align-items: center;
+    
 
 }

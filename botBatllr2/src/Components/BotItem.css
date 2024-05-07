@@ -1,0 +1,26 @@
+.item{
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin: 20px;
+    overflow: hidden;
+    font-family: Polysans,sans-serif;
+    overflow: hidden;
+    background-color: white;
+    
+    
+}
+.button{
+    background-color: white;
+    color: black;
+}
+.item-image{
+    max-width: 100%;
+    height: auto;
+}
+.botclass{
+    color: red;
+}
+.para{
+    color: blue;
+}
